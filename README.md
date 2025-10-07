@@ -51,7 +51,8 @@ The `<span>` tag is used on text when you don’t want the element to take up th
 <span class="tag">Learning</span>
 ```
 
-J'ai pu mettre l'image et le texte sur la meme ligne grace  a la balise <span> si j'avais utlise <p> le texte serait en dessous de l'image
+I was able to place the image and the text on the same line thanks to the `<span>` tag. If I had used a `<p>` tag instead, the text would have appeared below the image.
+
 ```html
 <div class="author">
     <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" class="avatar">
@@ -70,7 +71,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Je ne maitrise pas encore les circonstances pour utiliser le Grid ou la Flexbox mais ce n'est pas un probleme car ce n'est que mon deuxieme projet depuis que j'ai appris le html et le CSS. Je veux mieux apprendre a m'en servir. Presentement je compte encre des fois sur l'IA. Je ne sais pas si c'est mal mais je suppose que pour un debut c'est normal. Mon objectif est d'etre de moins en moins dependant de l'IA.
+I don’t fully master the situations where I should use Grid or Flexbox yet, but that’s not a problem since this is only my second project since I started learning HTML and CSS. I want to get better at using them. Right now, I still rely on AI sometimes. I don’t know if that’s a bad thing, but I suppose it’s normal for a beginner. My goal is to become less and less dependent on AI.
 
 
 ### Useful resources
@@ -87,4 +88,4 @@ Je ne maitrise pas encore les circonstances pour utiliser le Grid ou la Flexbox 
 
 ## Acknowledgments
 
-Je l'ai fait seule sans l'aide d'aucune personne exterieur donc je m'attribue tout le credit.
+I did it entirely on my own without any outside help, so I give myself all the credit.
