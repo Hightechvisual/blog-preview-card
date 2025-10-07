@@ -15,8 +15,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 
 ### The challenge
 
@@ -36,8 +34,8 @@ Users should be able to:
 -->
 ## My process
 
-Premierement je me suis rappele du projet precedent ou j'avais centree un element exactement de la meme facon que je devais le faire avec ce projet. J'avais decidee le projet precedent de combiner le Grid pour centrer ma carte et la flexbox pour les elements al'interieur de ma carte. J'ai donc decide de partir sur un Grid pour mon element principale. Malheureusement ca n'a pas marche comme je le voulais. j'ai fait quelques recherches, apres quoi j'ai decide de faire le projet rien d'avec du Flexbox. Ca a ete plus facile ainsi.
-J'ai aussi galere dans l'organisation de mes balises HTML. 
+First, I remembered the previous project where I had centered an element in exactly the same way I needed to for this one. In that earlier project, I had decided to combine Grid to center my card and Flexbox for the elements inside the card. So I decided to use Grid again for my main element. Unfortunately, it didn’t work as I wanted. I did some research, after which I decided to rebuild the project entirely with Flexbox. It was much easier that way.
+I also struggled a bit with organizing my HTML tags.
 
 ### Built with
 
@@ -48,7 +46,7 @@ J'ai aussi galere dans l'organisation de mes balises HTML.
 
 ### What I learned
 
-La balise span est utilise sur du texte quand on ne veut pas que son element occupe toute la largeur
+The `<span>` tag is used on text when you don’t want the element to take up the full width.
 ```html
 <span class="tag">Learning</span>
 ```
