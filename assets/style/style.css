@@ -1,0 +1,112 @@
+/* === RESET DE BASE ===*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* === CENTRAGE FLEXBOX === */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+main {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0);
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main:hover {
+  transform: translateY(-8px);
+}
+
+/* === STYLE DE LA CARTE === */
+
+.card {
+  background: hsla(0, 0%, 100%, 1);
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  overflow: hidden;
+}
+
+/* === IMAGE === */
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* === CONTENU ===*/
+.card-content {
+  padding: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: hsl(47, 98%, 60%);
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  margin: 10px 0 0 0;
+}
+
+.date {
+  color: hsl(0, 0%, 7%);
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+}
+
+h2:hover {
+  color: hsl(0, 0%, 42%);
+}
+
+.desc {
+  color: hsl(0, 0%, 42%);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* === AUTEUR === */
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.author span {
+  font-weight: 600;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
