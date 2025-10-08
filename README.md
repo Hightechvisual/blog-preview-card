@@ -59,10 +59,10 @@ I was able to place the image and the text on the same line thanks to the `<span
     <span>Greg Hooper</span>
 </div>
 ```
+I tried to download this font and integrate it into my project, but it didn’t work for some reason, so I just imported it instead.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 ```
 
 
